@@ -1,10 +1,9 @@
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def intro(self):
-        return f"My name is {self.name} and i am {self.age} years old."
-
-me = Person("Ada Dilara", 19)
-print(me.intro())
+my_age = 19 #int
+my_height = 163.4 #float
+my_dogs_name = "Badem" #str
+item_list = ['food',15,'job',75.6] #list
+information = {"name": "ada", "age": "19"} #dict
+tuple1 = (10,"hello",200.3) #tup
+set1 = ("a","b") #set
+is_active = True
+empty = None
