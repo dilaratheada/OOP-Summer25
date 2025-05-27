@@ -14,8 +14,8 @@ class Car:
         self.__start_the_engine()
 
     def __stop_the_engine(self):
-        self.__engine_status = "Stoped"
-        print("The engine has stoped running.")
+        self.__engine_status = "Stopped"
+        print("The engine has stopped running.")
 
     def stop_the_car(self):
         self.__stop_the_engine()
